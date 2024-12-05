@@ -4,6 +4,8 @@ import "./PokemonDetails.css";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
+// axios directly convert the response in json so we dont neeeed
+//to convert into json
 
 function PokemonDetails() {
   const { id } = useParams();
